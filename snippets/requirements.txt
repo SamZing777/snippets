@@ -1,0 +1,13 @@
+asgiref==3.2.10
+beautifulsoup4==4.9.1
+bs4==0.0.1
+Django==3.1.1
+django-autoslug==1.9.8
+django-bootstrap-form==3.4
+django-crispy-forms==1.9.2
+django-filter==2.3.0
+django-tinymce==3.0.2
+djangorestframework==3.12.4
+pytz==2020.1
+soupsieve==2.0.1
+sqlparse==0.3.1
