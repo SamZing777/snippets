@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     # local apps
     'snippet_app.apps.SnippetAppConfig',
     'users.apps.UsersConfig',
+    'hyperlinks.apps.HyperlinksConfig',
+    'viewsets.apps.ViewsetsConfig',
 
     # third party apps
     'rest_framework',
@@ -64,6 +66,12 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'snippets.wsgi.application'
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
+}
 
 
 # Database
